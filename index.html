@@ -1,16 +1,7 @@
-{% load staticfiles %}
-
-{% if user.is_authenticated %}
-<a href="/logout/">Logout</a>
-{% else %}
-<a href="/register/">Sign-Up</a>
-<a href="/login/">Login</a>
-{% endif %}
-
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Free Gym Website Template | Home :: w3layouts</title>
+<title>Seif Keshk Resume</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -45,10 +36,10 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="/">Menu</a>
 			 <ul class="nav">
-			   <li class="active"><a href="/">Home</a></li>
-			   <li><a href="#">My Schedule</a></li>
-			   <li><a href="#">Edit Info</a></li>
-			   <li><a href="#">Statistics</a></li>
+			   <li class="active"><a href="/academic_projects">Academic Projects</a></li>
+			   <li><a href="#"></a></li>
+			   <li><a href="#"></a></li>
+			   <li><a href="#"></a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -59,16 +50,10 @@
 	 <div class="main">
 	 	 <div class="container">
 		<!--background-color: #ff0000 setting background colour in style-->
-		<a  class="btn" href="{% url 'add_workout' client.id %}" >
-	 	 <input class="btn" type="button" style="font-family: sans-serif; font-size: 20px; color: Black;" value="Add Workout"></a>
-
-       <a  class="btn" href="{% url 'client_workouts' client.id %}" >
-		<input class="btn" type="button" style="font-family: sans-serif; font-size: 20px; color: Black; " value="Workout Schedule"></a>
-
 			<!-- start content-top -->
 			<div class="row content-top">
 				 <div class="col-md-5">
-				  <img src="images/pic.png" class="img-responsive" alt=""/> 
+				  <img src="images/1212.jpg" class="img-responsive" alt=""/> 
 			     </div>
 				 <div class="col-md-7 content_left_text">
        
